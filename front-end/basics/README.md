@@ -57,8 +57,14 @@
     <div>
         <p style="background-color:rgb( 0 , 0 , 255 )">This is a paragraph.</p>
     </div>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+        }
+        </style>
         <div>
-        <h2>Table With Rounded Borders</h2>
+                <h2>Table With Rounded Borders</h2>
         <div>
         <p>Use the CSS border-radius property to add rounded corners to the borders.</p>
         <div>
@@ -92,14 +98,13 @@
                   border-collapse: collapse;
                 }
                 </style>
-               <div>
-
-                <div>
+                </head>
+<div>
                 <div>
                 <h2>A header that spans two columns</h2>
-                
+                <div>
                 <p>Use the colspan attribute to have a header span over multiple columns.</p>
-                
+                <div>
                 <table style="width:100%">
                   <tr>
                     <th colspan="2">Name</th>
@@ -130,36 +135,8 @@
                   padding-right: 40px;
                 }
                 </style>
-                </head>
-                
-                <h2>Cellpadding - top - bottom - left - right </h2>
-                <p>We can specify different padding for all fours sides of the cell content.</p>
-                
-                <table style="width:100%">
-                  <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th> 
-                    <th>Age</th>
-                  </tr>
-                  <tr>
-                    <td>Jill</td>
-                    <td>Smith</td>
-                    <td>50</td>
-                  </tr>
-                  <tr>
-                    <td>Eve</td>
-                    <td>Jackson</td>
-                    <td>94</td>
-                  </tr>
-                  <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>80</td>
-                  </tr>
-                </table>
-                
-        </div>
-
+          
+<div>
         <div>
             <style>
                 .city {
@@ -170,90 +147,7 @@
                   padding: 20px;
                 }
                 </style>
-                
-                <div class="city">
-                  <h2>London</h2>
-                  <p>London is the capital of England.</p>
-                </div>
-                
-                <div class="city">
-                  <h2>Paris</h2>
-                  <p>Paris is the capital of France.</p>
-                </div>
-                
-                <div class="city">
-                  <h2>Tokyo</h2>
-                  <p>Tokyo is the capital of Japan.</p>
-                </div>
-        </div>
-        <div>
-            <h2>Use of The class Attribute in JavaScript</h2>
-            <p>Click the button to hide all elements with class name "city":</p>
-
-            <button onclick="myFunction()">Hide elements</button>
-
-            <h2 class="city">London</h2>
-            <p>London is the capital of England.</p>
-
-            <h2 class="city">Paris</h2>
-            <p>Paris is the capital of France.</p>
-
-            <h2 class="city">Tokyo</h2>
-            <p>Tokyo is the capital of Japan.</p>
-
-            <script>
-            function myFunction() {
-            var x = document.getElementsByClassName("city");
-            for (var i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            }
-            </script>
-        </div>
-        <div>
-            
-        </div>
-        <div>
-            <style>
-                /* Style the element with the id "myHeader" */
-                #myHeader {
-                  background-color: lightblue;
-                  color: black;
-                  padding: 40px;
-                  text-align: center;
-                }
-                
-                /* Style all elements with the class name "city" */
-                .city {
-                  background-color: tomato;
-                  color: white;
-                  padding: 10px;
-                }
-                </style>
-                
-                <!-- An element with a unique id -->
-                <h1 id="myHeader">My Cities</h1>
-                
-                <!-- Multiple elements with same class -->
-                <h2 class="city">London</h2>
-                <p>London is the capital of England.</p>
-                
-                <h2 class="city">Paris</h2>
-                <p>Paris is the capital of France.</p>
-                
-                <h2 class="city">Tokyo</h2>
-                <p>Tokyo is the capital of Japan.</p>
-        </div>
-        <div>
-            <h1>My First JavaScript</h1>
-
-            <button type="button"
-            onclick="document.getElementById('demo').innerHTML = Date()">
-            Click me to display Date and Time.</button>
-
-            <p id="demo"></p>
-
-        </div>
+ <div>
         <div>
           <input type="button">
           <input type="checkbox">
@@ -304,7 +198,8 @@
         <div>
           <h2>Checkboxes</h2>
           <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
-
+          
+<div>
           <form action="/action_page.php">
             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
             <label for="vehicle1"> I have a bike</label><br>
@@ -317,9 +212,10 @@
         </div>
         <div>
           <h2>The select Element</h2>
-
+<div>
           <p>The select element defines a drop-down list:</p>
-
+          <div>
+<div>
           <form action="/action_page.php">
             <label for="cars">Choose a car:</label>
             <select id="cars" name="cars">
@@ -338,9 +234,10 @@
         </div>
         <div>
           <h2>Grouping Form Data with Fieldset</h2>
+          <div><div>
 
-          <p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
-
+          <p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p><div>
+<div>
           <form action="/action_page.php">
             <fieldset>
               <legend>Personalia:</legend>
@@ -397,8 +294,6 @@
           <iframe width="420" height="345" src="https://www.youtube.com/embed/Su7917D1YKQ">
           </iframe>
         </div>
-
-        
-
+        </div>
 </body>
 </html>
