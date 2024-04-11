@@ -35,13 +35,13 @@
     <div>
         <a href="https://www.freecodecamp.org/news/content/images/size/w2000/2021/09/avatar-4623511_1280.png"> PNG Link</a>
     </div>
-    <div>
+<!--     <div>
         <h1 style="font-family:verdana;">This is a heading</h1>
         <p style="font-family:courier;">This is a paragraph.</p>
     </div>
     <div>
         <p><i>This text is italic.</i></p>
-    </div>
+    </div> -->
     <div>
         <p>This text is normal.</p>
         <p><em>This text is emphasized, style font</em></p>
