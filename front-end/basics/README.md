@@ -21,7 +21,7 @@
                 this is a paragraph in HTML
              </p>
         </div>
-        <div>
+<!--         <div>
             <p2>This is my list. <br>
                 The tag makes a break <br>
                 Very helpful. <br><p2>
@@ -57,14 +57,14 @@
     <div>
         <p style="background-color:rgb( 0 , 0 , 255 )">This is a paragraph.</p>
     </div>
-<!--     <style>
+   <style>
         table, th, td {
           border: 1px solid black;
           border-radius: 10px;
         }
-        </style> -->
+        </style> 
         
-        <h2>Table With Rounded Borders</h2>
+        <h2>Table With Rounded Borders</h2> -->
         
         <p>Use the CSS border-radius property to add rounded corners to the borders.</p>
         
