@@ -1,3 +1,4 @@
+-- Active: 1713612195101@@127.0.0.1@3306@information_schema
 -- create
 CREATE TABLE EMPLOYEE (
   empId INTEGER PRIMARY KEY,
